@@ -1,28 +1,28 @@
 class Promptctl < Formula
   desc "A CLI tool for managing coding prompts across projects"
   homepage "https://github.com/debendraoli/promptctl"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/debendraoli/promptctl/releases/download/v0.1.0/promptctl-aarch64-apple-darwin.tar.gz"
-      sha256 "b5361fbabda374c86a0919dbe8758361608cd4b2621777e027b1cef581830264"
+      url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-aarch64-apple-darwin.tar.gz"
+      sha256 "a0caf80af4a0292d351e520f884628358719f6ac269af91956437cab1abc0cc1"
     end
     on_intel do
-      url "https://github.com/debendraoli/promptctl/releases/download/v0.1.0/promptctl-x86_64-apple-darwin.tar.gz"
-      sha256 "047c8ae4109ab33079f3bd9e57f218a385f14c19838e7eaf2c0bdf45627353c2"
+      url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-x86_64-apple-darwin.tar.gz"
+      sha256 "d1c896582320a9dd21cbda77b2e602bfdfceedabaf14656f4cf9a02fbc5545a0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debendraoli/promptctl/releases/download/v0.1.0/promptctl-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "706aa1fb716cceee16b428b4b23964cb5156e957b224173bf2ba3b7dc021a688"
+      url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fb7aa4ee8a1705129caaaa3e4321aad19eeb46d43b8d5b0efc4ebde83a949125"
     end
     on_intel do
-      url "https://github.com/debendraoli/promptctl/releases/download/v0.1.0/promptctl-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7b2a3a6253f328cff092439fc0a1e2fe0b4e48d6602944ba4f9539686e3dac50"
+      url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "97765ad71bc1abb01bda24b6c6a7447794d808b4e01d0ea25409d4c3a498e91e"
     end
   end
 
