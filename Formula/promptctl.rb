@@ -7,22 +7,22 @@ class Promptctl < Formula
   on_macos do
     on_arm do
       url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-aarch64-apple-darwin.tar.gz"
-      sha256 "a0caf80af4a0292d351e520f884628358719f6ac269af91956437cab1abc0cc1"
+      sha256 "b108929b3be6ed8689deadbd2d4759b7c777c4127daf7a2b3a709c3da770d423"
     end
     on_intel do
       url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-x86_64-apple-darwin.tar.gz"
-      sha256 "d1c896582320a9dd21cbda77b2e602bfdfceedabaf14656f4cf9a02fbc5545a0"
+      sha256 "d063af9084e9e3fe8d4cf892e524c1e123882e46cbf600241635b326807235ea"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fb7aa4ee8a1705129caaaa3e4321aad19eeb46d43b8d5b0efc4ebde83a949125"
+      sha256 "e8e4c79f07755b68d033d2bc51bc40344f77ea8c57feb949b8429203ce7c0647"
     end
     on_intel do
       url "https://github.com/debendraoli/promptctl/releases/download/v0.2.0/promptctl-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "97765ad71bc1abb01bda24b6c6a7447794d808b4e01d0ea25409d4c3a498e91e"
+      sha256 "47a6bc9233f5017a19eaca3e7c53d158d554e246dd7bef2150cd3006f08c5013"
     end
   end
 
